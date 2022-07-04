@@ -11,7 +11,9 @@
   "author": "Sergio Velasquez",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "sequelize": "^6.21.2",
+    "sqlite3": "^5.0.8"
   },
   "devDependencies": {
     "eslint": "^8.18.0",
@@ -33,7 +35,10 @@
     },
     "rules": {
       "semi": "warn",
-      "quotes": ["warn", "singles"]
+      "quotes": [
+        "warn",
+        "singles"
+      ]
     }
   }
 }
